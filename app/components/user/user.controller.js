@@ -39,6 +39,6 @@ angular.module('iqrmpApp')
                 case 'Edit':
                     User.update(user)
                     break;
-            }
+            }    
         };
     }]);

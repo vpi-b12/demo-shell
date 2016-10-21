@@ -44,6 +44,10 @@ angular.module('demoApp')
         }]);
     }]);
 
+
+    function () {
+    }
+
 // CurrentUser management
 angular.module('demoApp')
     .run(['$rootScope', '$state', '$resource', '$window', 'User',
